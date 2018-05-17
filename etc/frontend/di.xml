@@ -10,4 +10,11 @@
 			type='Dfe\Configurable\Plugin\ConfigurableProduct\Block\Product\View\Type\Configurable'
 		/>
 	</type>
+<!-- 2018-05-18 https://github.com/netrixab/magento2-configurable-sku-switch/blob/4ae04e5/etc/frontend/di.xml#L11-L13 -->
+	<type name='Magento\Swatches\Block\Product\Renderer\Configurable'>
+		<plugin
+			name='Dfe\Configurable\Plugin\Swatches\Block\Product\Renderer\Configurable'
+			type='Dfe\Configurable\Plugin\Swatches\Block\Product\Renderer\Configurable'
+		/>
+	</type>
 </config>
